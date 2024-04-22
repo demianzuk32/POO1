@@ -11,6 +11,11 @@ public class Cuidador {
     public Cuidador() {
     }
 
+    public Cuidador(String nombre, int legajo) {
+        this.nombre = nombre;
+        this.legajo = legajo;
+    }
+
     public Cuidador(String nombre, int legajo, float sueldo) {
         this.nombre = nombre;
         this.legajo = legajo;

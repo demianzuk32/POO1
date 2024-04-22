@@ -12,6 +12,11 @@ public class Especie {
     public Especie() {
     }
 
+    public Especie(String nombre, String tipo) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+    }
+
     public Especie(String nombre, String tipo, int cantidad) {
         this.nombre = nombre;
         this.tipo = tipo;

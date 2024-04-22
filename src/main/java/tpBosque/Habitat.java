@@ -8,6 +8,14 @@ public class Habitat {
     private Especie especie;
 
     //Constructor
+    public Habitat() {
+    }
+
+    public Habitat(String nombre, float area) {
+        this.nombre = nombre;
+        this.area = area;
+    }
+
     public Habitat(String nombre, float area, Especie especie) {
         this.nombre = nombre;
         this.area = area;
