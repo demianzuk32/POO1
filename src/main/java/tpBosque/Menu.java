@@ -15,11 +15,11 @@ public class Menu {
     public void mostrarMenu() {
         int opcion;
         do {
-            System.out.println("Menú:");
+            System.out.println("Menu:");
             System.out.println("1. Agregar especie");
             System.out.println("2. Buscar especie");
             System.out.println("3. Salir");
-            System.out.print("Ingrese su opción: ");
+            System.out.print("Ingrese su opcion: ");
             opcion = scanner.nextInt();
             scanner.nextLine(); // Consumir el salto de línea
 
