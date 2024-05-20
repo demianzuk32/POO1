@@ -4,7 +4,7 @@ public class Cuidador {
 
     private String nombre;
     private int legajo;
-    private float sueldo;
+    private Double sueldo;
     private Especie especie;
 
     //Constructor
@@ -16,7 +16,7 @@ public class Cuidador {
         this.legajo = legajo;
     }
 
-    public Cuidador(String nombre, int legajo, float sueldo) {
+    public Cuidador(String nombre, int legajo, Double sueldo) {
         this.nombre = nombre;
         this.legajo = legajo;
         this.sueldo = sueldo;
@@ -39,12 +39,13 @@ public class Cuidador {
         this.legajo = legajo;
     }
 
-    public float getSueldo() {
+    public Double getSueldo() {
         return sueldo;
     }
 
-    public void setSueldo(float sueldo) {
+    public Double setSueldo(Double sueldo) {
         this.sueldo = sueldo;
+        return sueldo;
     }
 
     public Especie getEspecie() {

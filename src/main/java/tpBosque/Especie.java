@@ -56,4 +56,11 @@ public class Especie {
         this.habitat = habitat;
     }
 
+    //Metodos
+    public String toString() {
+        int cantidadEspecies = 0;
+
+        return "Especie: " + nombre + ", tipo: " + tipo;
+    }
+
 }
