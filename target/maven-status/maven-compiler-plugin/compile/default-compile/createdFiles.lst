@@ -1,0 +1,8 @@
+com\mycompany\practicarecuperatorio\IdClienteInvalidoException.class
+com\mycompany\practicarecuperatorio\Cliente.class
+com\mycompany\practicarecuperatorio\ProductoAccesorio.class
+com\mycompany\practicarecuperatorio\ProductoElectronico.class
+com\mycompany\practicarecuperatorio\TestTienda.class
+com\mycompany\practicarecuperatorio\Vendible.class
+com\mycompany\practicarecuperatorio\Producto.class
+com\mycompany\practicarecuperatorio\StockInsuficienteException.class
